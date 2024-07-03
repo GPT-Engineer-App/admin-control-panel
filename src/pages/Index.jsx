@@ -7,7 +7,7 @@ const Index = () => {
       <h1 className="text-2xl font-bold mb-4">Добро пожаловать в систему управления</h1>
       <p className="mb-8">Здесь вы можете управлять событиями, объектами, компаниями, персоналом и просматривать системный журнал.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <Card className="bg-[#fbfbfb]">
+        <Card className="bg-[#fbfbfb] border-2 border-gray-300">
           <CardHeader className="flex flex-col items-center justify-center">
             <CardTitle className="text-center">События</CardTitle>
             <p className="text-muted-foreground mt-2">Просмотр и управление событиями</p>
@@ -17,7 +17,7 @@ const Index = () => {
             </div>
           </CardHeader>
         </Card>
-        <Card className="bg-[#fbfbfb]">
+        <Card className="bg-[#fbfbfb] border-2 border-gray-300">
           <CardHeader className="flex flex-col items-center justify-center">
             <CardTitle className="text-center">Объекты</CardTitle>
             <p className="text-muted-foreground mt-2">Просмотр и управление объектами</p>
@@ -27,7 +27,7 @@ const Index = () => {
             </div>
           </CardHeader>
         </Card>
-        <Card className="bg-[#fbfbfb]">
+        <Card className="bg-[#fbfbfb] border-2 border-gray-300">
           <CardHeader className="flex flex-col items-center justify-center">
             <CardTitle className="text-center">Компании</CardTitle>
             <p className="text-muted-foreground mt-2">Просмотр и управление компаниями</p>
@@ -37,7 +37,7 @@ const Index = () => {
             </div>
           </CardHeader>
         </Card>
-        <Card className="bg-[#fbfbfb]">
+        <Card className="bg-[#fbfbfb] border-2 border-gray-300">
           <CardHeader className="flex flex-col items-center justify-center">
             <CardTitle className="text-center">Персонал</CardTitle>
             <p className="text-muted-foreground mt-2">Просмотр и управление персоналом</p>
@@ -47,7 +47,7 @@ const Index = () => {
             </div>
           </CardHeader>
         </Card>
-        <Card className="bg-[#fbfbfb]">
+        <Card className="bg-[#fbfbfb] border-2 border-gray-300">
           <CardHeader className="flex flex-col items-center justify-center">
             <CardTitle className="text-center">Системный журнал</CardTitle>
             <p className="text-muted-foreground mt-2">Просмотр системного журнала</p>
@@ -57,7 +57,7 @@ const Index = () => {
             </div>
           </CardHeader>
         </Card>
-        <Card className="bg-[#fbfbfb]">
+        <Card className="bg-[#fbfbfb] border-2 border-gray-300">
           <CardHeader className="flex flex-col items-center justify-center">
             <CardTitle className="text-center">Справочники</CardTitle>
             <p className="text-muted-foreground mt-2">Просмотр и управление справочниками</p>

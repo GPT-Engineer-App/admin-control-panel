@@ -1,4 +1,6 @@
+import { useState, useEffect } from "react";
 import { Toaster } from "@/components/ui/sonner";
+import LoadingOverlay from "./components/LoadingOverlay";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Home, Calendar, Building, Users, BookOpen, FileText } from "lucide-react";
@@ -42,10 +44,20 @@ export const navItems = [
 ];
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000); // Simulate loading time
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
+        {loading && <LoadingOverlay />}
         <Router>
           <Routes>
             <Route path="/" element={<Layout />}>
