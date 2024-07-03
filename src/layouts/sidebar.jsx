@@ -18,7 +18,7 @@ const Layout = () => {
       <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6 justify-between">
         <div className="flex items-center gap-2 font-semibold">
           <Package2 className="h-6 w-6" />
-          <span>Admin Panel</span>
+          <span>Telekom</span>
         </div>
         <nav className="flex items-center gap-5 lg:gap-6 text-lg font-medium md:text-sm">
           {navItems.map((item) => (
