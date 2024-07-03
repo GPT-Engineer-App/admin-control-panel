@@ -8,87 +8,63 @@ const Index = () => {
       <p className="mb-8">Здесь вы можете управлять событиями, объектами, компаниями, персоналом и просматривать системный журнал.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <Card>
-          <CardHeader className="flex items-center justify-between">
-            <div className="flex flex-col">
-              <div className="flex items-center">
-                <Calendar className="mr-2 h-6 w-6" />
-                <CardTitle>События</CardTitle>
-              </div>
-              <p className="ml-8 text-muted-foreground">Просмотр и управление событиями</p>
-            </div>
-            <div className="flex items-center">
+          <CardHeader className="flex flex-col items-center justify-center">
+            <CardTitle className="text-center">События</CardTitle>
+            <div className="flex items-center mt-2">
               <p className="text-3xl font-bold mr-2">24</p>
+              <Calendar className="h-6 w-6" />
             </div>
+            <p className="text-muted-foreground">Просмотр и управление событиями</p>
           </CardHeader>
         </Card>
         <Card>
-          <CardHeader className="flex items-center justify-between">
-            <div className="flex flex-col">
-              <div className="flex items-center">
-                <Building className="mr-2 h-6 w-6" />
-                <CardTitle>Объекты</CardTitle>
-              </div>
-              <p className="ml-8 text-muted-foreground">Просмотр и управление объектами</p>
-            </div>
-            <div className="flex items-center">
+          <CardHeader className="flex flex-col items-center justify-center">
+            <CardTitle className="text-center">Объекты</CardTitle>
+            <div className="flex items-center mt-2">
               <p className="text-3xl font-bold mr-2">87</p>
+              <Building className="h-6 w-6" />
             </div>
+            <p className="text-muted-foreground">Просмотр и управление объектами</p>
           </CardHeader>
         </Card>
         <Card>
-          <CardHeader className="flex items-center justify-between">
-            <div className="flex flex-col">
-              <div className="flex items-center">
-                <Home className="mr-2 h-6 w-6" />
-                <CardTitle>Компании</CardTitle>
-              </div>
-              <p className="ml-8 text-muted-foreground">Просмотр и управление компаниями</p>
-            </div>
-            <div className="flex items-center">
+          <CardHeader className="flex flex-col items-center justify-center">
+            <CardTitle className="text-center">Компании</CardTitle>
+            <div className="flex items-center mt-2">
               <p className="text-3xl font-bold mr-2">12</p>
+              <Home className="h-6 w-6" />
             </div>
+            <p className="text-muted-foreground">Просмотр и управление компаниями</p>
           </CardHeader>
         </Card>
         <Card>
-          <CardHeader className="flex items-center justify-between">
-            <div className="flex flex-col">
-              <div className="flex items-center">
-                <Users className="mr-2 h-6 w-6" />
-                <CardTitle>Персонал</CardTitle>
-              </div>
-              <p className="ml-8 text-muted-foreground">Просмотр и управление персоналом</p>
-            </div>
-            <div className="flex items-center">
+          <CardHeader className="flex flex-col items-center justify-center">
+            <CardTitle className="text-center">Персонал</CardTitle>
+            <div className="flex items-center mt-2">
               <p className="text-3xl font-bold mr-2">143</p>
+              <Users className="h-6 w-6" />
             </div>
+            <p className="text-muted-foreground">Просмотр и управление персоналом</p>
           </CardHeader>
         </Card>
         <Card>
-          <CardHeader className="flex items-center justify-between">
-            <div className="flex flex-col">
-              <div className="flex items-center">
-                <FileText className="mr-2 h-6 w-6" />
-                <CardTitle>Системный журнал</CardTitle>
-              </div>
-              <p className="ml-8 text-muted-foreground">Просмотр системного журнала</p>
-            </div>
-            <div className="flex items-center">
+          <CardHeader className="flex flex-col items-center justify-center">
+            <CardTitle className="text-center">Системный журнал</CardTitle>
+            <div className="flex items-center mt-2">
               <p className="text-3xl font-bold mr-2">1,256</p>
+              <FileText className="h-6 w-6" />
             </div>
+            <p className="text-muted-foreground">Просмотр системного журнала</p>
           </CardHeader>
         </Card>
         <Card>
-          <CardHeader className="flex items-center justify-between">
-            <div className="flex flex-col">
-              <div className="flex items-center">
-                <BookOpen className="mr-2 h-6 w-6" />
-                <CardTitle>Справочники</CardTitle>
-              </div>
-              <p className="ml-8 text-muted-foreground">Просмотр и управление справочниками</p>
-            </div>
-            <div className="flex items-center">
+          <CardHeader className="flex flex-col items-center justify-center">
+            <CardTitle className="text-center">Справочники</CardTitle>
+            <div className="flex items-center mt-2">
               <p className="text-3xl font-bold mr-2">25</p>
+              <BookOpen className="h-6 w-6" />
             </div>
+            <p className="text-muted-foreground">Просмотр и управление справочниками</p>
           </CardHeader>
         </Card>
       </div>
