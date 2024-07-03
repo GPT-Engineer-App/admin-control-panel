@@ -20,7 +20,12 @@ const Layout = () => {
       <div className="flex flex-col">
         <header className="flex h-14 items-center gap-4 border-b bg-muted/40 px-4 lg:h-[60px] lg:px-6">
           <MobileSidebar />
-          <div className="w-full flex-1">{/* Add nav bar content here! */}</div>
+          <div className="w-full flex-1">
+            <div className="flex items-center gap-2 font-semibold">
+              <Package2 className="h-6 w-6" />
+              <span>Admin Panel</span>
+            </div>
+          </div>
           <UserDropdown />
         </header>
         <main className="flex-grow p-4 overflow-auto">
@@ -35,10 +40,10 @@ const Sidebar = () => (
   <div className="hidden border-r bg-muted/40 md:block">
     <div className="flex h-full max-h-screen flex-col gap-2">
       <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
-        <NavLink to="/" className="flex items-center gap-2 font-semibold">
+        <div className="flex items-center gap-2 font-semibold">
           <Package2 className="h-6 w-6" />
-          <span>Acme Inc</span>
-        </NavLink>
+          <span>Admin Panel</span>
+        </div>
       </div>
       <div className="flex-1">
         <nav className="grid items-start px-2 text-sm font-medium lg:px-4 gap-2">
@@ -64,15 +69,13 @@ const MobileSidebar = () => (
     </SheetTrigger>
     <SheetContent side="left" className="flex flex-col">
       <nav className="grid gap-2 text-lg font-medium">
-        <NavLink
-          to="/"
-          className="flex items-center gap-2 text-lg font-semibold mb-4"
-        >
+        <div className="flex items-center gap-2 text-lg font-semibold mb-4">
           <Package2 className="h-6 w-6" />
-          <span className="sr-only">Acme Inc</span>
-        </NavLink>
+          <span>Admin Panel</span>
+        </div>
         {navItems.map((item) => (
           <SidebarNavLink key={item.to} to={item.to}>
+            {item.icon}
             {item.title}
           </SidebarNavLink>
         ))}
