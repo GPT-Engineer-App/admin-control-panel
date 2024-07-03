@@ -15,7 +15,7 @@ import { navItems } from "../App";
 const Layout = () => {
   return (
     <div className="flex min-h-screen w-full flex-col">
-      <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6 justify-between">
+      <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6 justify-between shadow-lg">
         <div className="flex items-center gap-2 font-semibold">
           <Package2 className="h-6 w-6" />
           <span>Telekom</span>
