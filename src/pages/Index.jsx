@@ -9,10 +9,12 @@ const Index = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <Card>
           <CardHeader className="flex items-center justify-between">
-            <div className="flex items-center">
-              <Calendar className="mr-2 h-6 w-6" />
-              <CardTitle>События</CardTitle>
-              <p className="ml-2 text-muted-foreground">Просмотр и управление событиями</p>
+            <div className="flex flex-col">
+              <div className="flex items-center">
+                <Calendar className="mr-2 h-6 w-6" />
+                <CardTitle>События</CardTitle>
+              </div>
+              <p className="ml-8 text-muted-foreground">Просмотр и управление событиями</p>
             </div>
             <div className="flex items-center">
               <p className="text-3xl font-bold mr-2">24</p>
@@ -21,10 +23,12 @@ const Index = () => {
         </Card>
         <Card>
           <CardHeader className="flex items-center justify-between">
-            <div className="flex items-center">
-              <Building className="mr-2 h-6 w-6" />
-              <CardTitle>Объекты</CardTitle>
-              <p className="ml-2 text-muted-foreground">Просмотр и управление объектами</p>
+            <div className="flex flex-col">
+              <div className="flex items-center">
+                <Building className="mr-2 h-6 w-6" />
+                <CardTitle>Объекты</CardTitle>
+              </div>
+              <p className="ml-8 text-muted-foreground">Просмотр и управление объектами</p>
             </div>
             <div className="flex items-center">
               <p className="text-3xl font-bold mr-2">87</p>
@@ -33,10 +37,12 @@ const Index = () => {
         </Card>
         <Card>
           <CardHeader className="flex items-center justify-between">
-            <div className="flex items-center">
-              <Home className="mr-2 h-6 w-6" />
-              <CardTitle>Компании</CardTitle>
-              <p className="ml-2 text-muted-foreground">Просмотр и управление компаниями</p>
+            <div className="flex flex-col">
+              <div className="flex items-center">
+                <Home className="mr-2 h-6 w-6" />
+                <CardTitle>Компании</CardTitle>
+              </div>
+              <p className="ml-8 text-muted-foreground">Просмотр и управление компаниями</p>
             </div>
             <div className="flex items-center">
               <p className="text-3xl font-bold mr-2">12</p>
@@ -45,10 +51,12 @@ const Index = () => {
         </Card>
         <Card>
           <CardHeader className="flex items-center justify-between">
-            <div className="flex items-center">
-              <Users className="mr-2 h-6 w-6" />
-              <CardTitle>Персонал</CardTitle>
-              <p className="ml-2 text-muted-foreground">Просмотр и управление персоналом</p>
+            <div className="flex flex-col">
+              <div className="flex items-center">
+                <Users className="mr-2 h-6 w-6" />
+                <CardTitle>Персонал</CardTitle>
+              </div>
+              <p className="ml-8 text-muted-foreground">Просмотр и управление персоналом</p>
             </div>
             <div className="flex items-center">
               <p className="text-3xl font-bold mr-2">143</p>
@@ -57,10 +65,12 @@ const Index = () => {
         </Card>
         <Card>
           <CardHeader className="flex items-center justify-between">
-            <div className="flex items-center">
-              <FileText className="mr-2 h-6 w-6" />
-              <CardTitle>Системный журнал</CardTitle>
-              <p className="ml-2 text-muted-foreground">Просмотр системного журнала</p>
+            <div className="flex flex-col">
+              <div className="flex items-center">
+                <FileText className="mr-2 h-6 w-6" />
+                <CardTitle>Системный журнал</CardTitle>
+              </div>
+              <p className="ml-8 text-muted-foreground">Просмотр системного журнала</p>
             </div>
             <div className="flex items-center">
               <p className="text-3xl font-bold mr-2">1,256</p>
@@ -69,10 +79,12 @@ const Index = () => {
         </Card>
         <Card>
           <CardHeader className="flex items-center justify-between">
-            <div className="flex items-center">
-              <BookOpen className="mr-2 h-6 w-6" />
-              <CardTitle>Справочники</CardTitle>
-              <p className="ml-2 text-muted-foreground">Просмотр и управление справочниками</p>
+            <div className="flex flex-col">
+              <div className="flex items-center">
+                <BookOpen className="mr-2 h-6 w-6" />
+                <CardTitle>Справочники</CardTitle>
+              </div>
+              <p className="ml-8 text-muted-foreground">Просмотр и управление справочниками</p>
             </div>
             <div className="flex items-center">
               <p className="text-3xl font-bold mr-2">25</p>
