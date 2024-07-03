@@ -1,55 +1,73 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Building, Calendar, Home, Users, FileText, BookOpen } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="grid gap-4">
       <Card>
         <CardHeader>
-          <CardTitle>События</CardTitle>
+          <CardTitle>
+            <Calendar className="mr-2 h-6 w-6" />
+            События
+          </CardTitle>
         </CardHeader>
         <CardContent>
-          <p>Просмотр и управление событиями</p>
-          <p>Количество событий: 0</p>
+          <p className="text-xl font-bold">0</p>
         </CardContent>
       </Card>
       <Card>
         <CardHeader>
-          <CardTitle>Объекты</CardTitle>
+          <CardTitle>
+            <Building className="mr-2 h-6 w-6" />
+            Объекты
+          </CardTitle>
         </CardHeader>
         <CardContent>
-          <p>Описание объектов</p>
+          <p className="text-xl font-bold">0</p>
         </CardContent>
       </Card>
       <Card>
         <CardHeader>
-          <CardTitle>Компании</CardTitle>
+          <CardTitle>
+            <Home className="mr-2 h-6 w-6" />
+            Компании
+          </CardTitle>
         </CardHeader>
         <CardContent>
-          <p>Описание компаний</p>
+          <p className="text-xl font-bold">0</p>
         </CardContent>
       </Card>
       <Card>
         <CardHeader>
-          <CardTitle>Персонал</CardTitle>
+          <CardTitle>
+            <Users className="mr-2 h-6 w-6" />
+            Персонал
+          </CardTitle>
         </CardHeader>
         <CardContent>
-          <p>Описание персонала</p>
+          <p className="text-xl font-bold">0</p>
         </CardContent>
       </Card>
       <Card>
         <CardHeader>
-          <CardTitle>Системный журнал</CardTitle>
+          <CardTitle>
+            <FileText className="mr-2 h-6 w-6" />
+            Системный журнал
+          </CardTitle>
         </CardHeader>
         <CardContent>
-          <p>Описание системного журнала</p>
+          <p className="text-xl font-bold">0</p>
         </CardContent>
       </Card>
       <Card>
         <CardHeader>
-          <CardTitle>Справочники</CardTitle>
+          <CardTitle>
+            <BookOpen className="mr-2 h-6 w-6" />
+            Справочники
+          </CardTitle>
         </CardHeader>
         <CardContent>
-          <p>Описание справочников</p>
+          <p className="text-xl font-bold">0</p>
         </CardContent>
       </Card>
     </div>

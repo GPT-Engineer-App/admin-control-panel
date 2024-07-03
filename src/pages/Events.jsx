@@ -9,7 +9,7 @@ const Events = () => {
         </CardHeader>
         <CardContent>
           <p>Просмотр и управление событиями</p>
-          <p>Количество событий: 0</p>
+          <p className="text-xl font-bold">0</p>
         </CardContent>
       </Card>
     </div>
