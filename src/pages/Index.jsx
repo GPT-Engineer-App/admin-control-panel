@@ -13,6 +13,7 @@ const Index = () => {
             <CardTitle>События</CardTitle>
           </CardHeader>
           <CardContent>
+            <p>Просмотр и управление событиями</p> <!-- Added description -->
             <p className="text-xl font-bold">24</p>
           </CardContent>
         </Card>
@@ -22,6 +23,7 @@ const Index = () => {
             <CardTitle>Объекты</CardTitle>
           </CardHeader>
           <CardContent>
+            <p>Просмотр и управление объектами</p> <!-- Added description -->
             <p className="text-xl font-bold">87</p>
           </CardContent>
         </Card>
@@ -31,6 +33,7 @@ const Index = () => {
             <CardTitle>Компании</CardTitle>
           </CardHeader>
           <CardContent>
+            <p>Просмотр и управление компаниями</p> <!-- Added description -->
             <p className="text-xl font-bold">12</p>
           </CardContent>
         </Card>
@@ -40,6 +43,7 @@ const Index = () => {
             <CardTitle>Персонал</CardTitle>
           </CardHeader>
           <CardContent>
+            <p>Просмотр и управление персоналом</p> <!-- Added description -->
             <p className="text-xl font-bold">143</p>
           </CardContent>
         </Card>
@@ -49,6 +53,7 @@ const Index = () => {
             <CardTitle>Системный журнал</CardTitle>
           </CardHeader>
           <CardContent>
+            <p>Просмотр системного журнала</p> <!-- Added description -->
             <p className="text-xl font-bold">1,256</p>
           </CardContent>
         </Card>
@@ -58,6 +63,7 @@ const Index = () => {
             <CardTitle>Справочники</CardTitle>
           </CardHeader>
           <CardContent>
+            <p>Просмотр и управление справочниками</p> <!-- Added description -->
             <p className="text-xl font-bold">25</p>
           </CardContent>
         </Card>
