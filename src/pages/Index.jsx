@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Building, Calendar, Home, Users, FileText, BookOpen } from "lucide-react";
 import Spinner from "@/components/ui/Spinner";
-import { Building, Calendar, Home, Users, FileText, BookOpen } from "lucide-react";
 
 const Index = () => {
   const [loading, setLoading] = useState(true);
@@ -22,6 +21,7 @@ const Index = () => {
       </div>
     );
   }
+
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Добро пожаловать в систему управления</h1>
